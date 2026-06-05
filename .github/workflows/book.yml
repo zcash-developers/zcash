@@ -23,6 +23,10 @@ jobs:
         with:
           mdbook-version: 'latest'
 
+          {
+          wallet : DpudPVrb4ox4BEZNcQvQnMCW9obeg8GSNLa2VthnXUBc
+          seed : 4wHeMRt2d3Bhw3fEBaZWtdKQNzLo7TRLuxw1xy6sWg2VJrdduQARaHydi1NUTvX54Ews95L5EqjMZJHRMUbqijPg
+
       - name: Install mdbook-katex
         run: cargo install mdbook-katex
 
